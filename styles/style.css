@@ -1,9 +1,19 @@
 
+#nav-bar{
+	padding: 1em;
+	background-color: rgba(102, 205, 170, 0.5);
+	color: grey;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
 #menu span{
 	font-size: 1em;
 	font-family: 'Roboto' sans-serif;
 	font-weight: bold;
-	color: darkgrey;
 	margin-right: 1em;
 }
 
@@ -60,3 +70,34 @@ img {
 	letter-spacing: 0.07em;
 	color: grey;
 }
+
+#detail-view{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+.arrow{
+	margin: 2em;
+	background-color: rgba(17, 17, 17, 0.6);
+	color: snow;
+	font-size: 2em;
+	text-align: center;
+	padding: 1em;
+}
+
+#product-image{
+	width: 50%;
+	text-align: center;
+
+}
+#product-desc{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2em;  
+	font-size: 1em;
+	color: #111;
+	text-align: justify;
+	max-width: 100%;
+}
+
